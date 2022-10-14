@@ -18,6 +18,7 @@ const lab1link = document.querySelectorAll(".project-links")[0].childNodes[1];
 const lab2linkvid =
 	document.querySelectorAll(".project-links")[1].childNodes[1];
 const lab2link = document.querySelectorAll(".project-links")[1].childNodes[3];
+const lab3link = document.querySelectorAll(".project-links")[2].childNodes[1];
 
 const about_section = document.querySelectorAll(".sub-nav-item")[0];
 // const skills_section = document.querySelectorAll(".sub-nav-item")[1];
@@ -53,6 +54,10 @@ lab1link.addEventListener("click", () => {
 
 lab2link.addEventListener("click", () => {
 	window.open("./resources/files/Cross_Drew_Lab_2.pdf", "_blank");
+});
+
+lab3link.addEventListener("click", () => {
+	window.open("./resources/files/Cross_Drew_Lab_3.pdf", "_blank");
 });
 
 lab2linkvid.addEventListener("click", () => {

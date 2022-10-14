@@ -239,6 +239,7 @@ section:nth-child(even) {
 #projects,
 #labs {
 	min-height: 100vh;
+	height: auto;
 }
 
 .project-container {
