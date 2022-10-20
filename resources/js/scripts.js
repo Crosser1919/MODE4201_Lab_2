@@ -21,6 +21,7 @@ const lab2link = document.querySelectorAll(".project-links")[1].childNodes[3];
 const lab3link = document.querySelectorAll(".project-links")[2].childNodes[1];
 const cw1vidlink = document.querySelectorAll(".project-links")[3].childNodes[1];
 const cw1link = document.querySelectorAll(".project-links")[3].childNodes[3];
+const cw2vidlink = document.querySelectorAll(".project-links")[4].childNodes[1];
 
 const about_section = document.querySelectorAll(".sub-nav-item")[0];
 // const skills_section = document.querySelectorAll(".sub-nav-item")[1];
@@ -72,6 +73,10 @@ cw1vidlink.addEventListener("click", () => {
 
 cw1link.addEventListener("click", () => {
 	window.open("./resources/files/app-debug.zip", "_blank");
+});
+
+cw2vidlink.addEventListener("click", () => {
+	window.open("./resources/files/classwork_2_video.mp4", "_blank");
 });
 
 linkedin.addEventListener("click", () => {
