@@ -25,6 +25,8 @@ const cw2vidlink = document.querySelectorAll(".project-links")[5].childNodes[1];
 const lab4linkvid =
 	document.querySelectorAll(".project-links")[3].childNodes[1];
 const lab4link = document.querySelectorAll(".project-links")[3].childNodes[3];
+const cw3vidlink = document.querySelectorAll(".project-links")[6].childNodes[1];
+const cw3link = document.querySelectorAll(".project-links")[6].childNodes[3];
 
 const about_section = document.querySelectorAll(".sub-nav-item")[0];
 // const skills_section = document.querySelectorAll(".sub-nav-item")[1];
@@ -88,6 +90,14 @@ lab4link.addEventListener("click", () => {
 
 lab4linkvid.addEventListener("click", () => {
 	window.open("https://www.youtube.com/watch?v=uLzRqgV2sQw", "_blank");
+});
+
+cw3link.addEventListener("click", () => {
+	window.open("./resources/files/classwork_3.zip", "_blank");
+});
+
+cw3vidlink.addEventListener("click", () => {
+	window.open("./resources/files/classwork_3.mp4", "_blank");
 });
 
 linkedin.addEventListener("click", () => {
