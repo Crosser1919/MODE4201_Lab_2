@@ -88,7 +88,7 @@ cw2vidlink.addEventListener("click", () => {
 });
 
 lab4link.addEventListener("click", () => {
-	window.open("./resources/files/lab_4.zip", "_blank");
+	window.open("./resources/files/Lab_4.zip", "_blank");
 });
 
 lab4linkvid.addEventListener("click", () => {
